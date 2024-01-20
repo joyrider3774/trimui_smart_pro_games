@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Setup SDK
         run: |
-          curl https://github.com/joyrider3774/sdks/releases/latest/download/trimui-sdk.tar.gz --output sdk.tar.gz
+          curl https://github.com/joyrider3774/sdks/releases/latest/download/trimui-sdk.tar.gz --output trimui-sdk.tar.gz
           tar -xzvf ./trimui-sdk.tar.gz
           sudo mv ./trimui-sdk /opt/
 
