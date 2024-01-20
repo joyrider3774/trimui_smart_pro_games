@@ -11,6 +11,7 @@ For example if you open `checkers - Trimui_Smart_Pro.zip` there will be a folder
 `checkers` you need to copy that folder to the `Apps` folder of your trimui smart pro disk. 
 
 ## Generic Game controls
+
 | Key | Action |
 | ------ | ------ |
 | Dpad or Joystick | movement, selecting in menu's etc |
