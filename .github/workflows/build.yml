@@ -41,12 +41,12 @@ jobs:
           mv tmp/src ./src/srcgame
      
       - if: ${{ ${{matrix.buildtype}} == "playdate"}}   
-      - name: Build Game
+        name: Build Game
         run: |
           ${{matrix.makecommand}}
           
       - if: ${{ ${{matrix.buildtype}} == "playdate"}}   
-      - name: copy metadata
+        name: copy metadata
         run: |
           cp -Rf /tmp/metadata/trimuismartpo/. Source/
                  
