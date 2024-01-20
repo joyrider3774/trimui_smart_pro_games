@@ -20,6 +20,7 @@ For example if you open `checkers - Trimui_Smart_Pro.zip` there will be a folder
 | Y | In (Playdate) games starting up in black and white, reboot and use colored version of graphics, some games have multiple colored graphics so you can press it again to see more options. The button basically makes you cycle through all possibilities |
 | Menu | Quit game and return to menu |
 
+---
 
 ## Games
 Please see respective repo of each game to get more information about the games by clicking on the `Game Info` links
@@ -31,6 +32,7 @@ Blokdude is a remake of the well known TI Caluculator game from Brandon Sterner 
 
 [Game Info](https://github.com/joyrider3774/blockdude_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/blockdude%20-%20Trimui_Smart_Pro.zip)
 
+---
 
 ## Checkers
 ![Checkers Screenshot 1](https://raw.githubusercontent.com/joyrider3774/checkers_playdate/main/metadata/screenshots/Checkers-screenshot1.gif) ![Checkers Screenshot 2](https://raw.githubusercontent.com/joyrider3774/checkers_playdate/main/metadata/screenshots/Checkers-screenshot5.png)
@@ -39,6 +41,7 @@ Checkers is the well known board game with four difficulties and a jump heuristi
 
 [Game Info](https://github.com/joyrider3774/checkers_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/checkers%20-%20Trimui_Smart_Pro.zip)
 
+---
 
 ## Dynamate
 ![Dynamate Screenshot 1](https://raw.githubusercontent.com/joyrider3774/dynamate_playdate/main/metadata/screenshots/Dynamate-screenshot1.gif) ![Dynamate Screenshot 2](https://raw.githubusercontent.com/joyrider3774/dynamate_playdate/main/metadata/screenshots/Dynamate-screenshot4.png)
@@ -47,6 +50,7 @@ Dynamate is a puzzle game invented by Björn Kalzen and Jonas Norberg, a couple 
 
 [Game Info](https://github.com/joyrider3774/dynamate_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/dynamate%20-%20Trimui_Smart_Pro.zip)
 
+---
 
 ## Formula 1 Game & Watch
 ![Formula 1 Screenshot 1](https://raw.githubusercontent.com/joyrider3774/formula1_playdate/main/metadata/screenshots/Formula%201%20Game%20%26%20Watch%20screenshot%201.png) ![Formula 1 Screenshot 2](https://raw.githubusercontent.com/joyrider3774/formula1_playdate/main/metadata/screenshots/Formula%201%20Game%20%26%20Watch%20screenshot%204.png)
@@ -55,6 +59,7 @@ Formula 1 Game & Watch is a small, fictive formula 1 game & watch style lcd game
 
 [Game Info](https://github.com/joyrider3774/formula1_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/formula_1%20-%20Trimui_Smart_Pro.zip)
 
+---
 
 ## Rubido
 ![Rubido Screenshot 1](https://raw.githubusercontent.com/joyrider3774/rubido_playdate/main/metadata/screenshots/Rubido-screenshot3.gif) ![Rubido Screenshot 2](https://raw.githubusercontent.com/joyrider3774/rubido_playdate/main/metadata/screenshots/Rubido-screenshot6.png)
@@ -63,6 +68,7 @@ Rubido is a little chinese checkers or solitaire game with four difficulties.
 
 [Game Info](https://github.com/joyrider3774/rubido_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/rubido%20-%20Trimui_Smart_Pro.zip)
 
+---
 
 ## Puzzle Land
 ![Puzzle Land Screenshot 1](https://raw.githubusercontent.com/joyrider3774/puzzleland_playdate/main/metadata/screenshots/Puzzleland-screenshot1.png) ![Puzzle Land Screenshot 2](https://raw.githubusercontent.com/joyrider3774/puzzleland_playdate/main/metadata/screenshots/Puzzleland-screenshot8.png)
@@ -71,6 +77,7 @@ Puzzle Land is a remake of the gameboy game Daedalian opus also known as puzzle 
 
 [Game Info](https://github.com/joyrider3774/puzzleland_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/puzzleland%20-%20Trimui_Smart_Pro.zip)
 
+---
 
 ## Puztrix
 ![Puztrix Screenshot 1](https://raw.githubusercontent.com/joyrider3774/puztrix_playdate/main/metadata/screenshots/puztrix-screenshot1.gif) ![Puztrix Screenshot 2](https://raw.githubusercontent.com/joyrider3774/puztrix_playdate/main/metadata/screenshots/puztrix-screenshot10.png)
@@ -79,6 +86,7 @@ Puztrix is a remake of the Gravnic game from inside the NES Puzznic game.
 
 [Game Info](https://github.com/joyrider3774/puztrix_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/puztrix%20-%20Trimui_Smart_Pro.zip)
 
+---
 
 ## Waternet
 ![Waternet Screenshot 1](https://raw.githubusercontent.com/joyrider3774/waternet_playdate/main/metadata/screenshots/Waternet-screenshot1.gif) ![Waternet Screenshot 2](https://raw.githubusercontent.com/joyrider3774/waternet_playdate/main/metadata/screenshots/Waternet-screenshot7.png)
