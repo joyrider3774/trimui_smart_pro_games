@@ -8,11 +8,11 @@ jobs:
     strategy:
       matrix:
         include:
-          - { buildtype: playdate, repo: 'joyrider3774/formula1_playdate', output: 'formula_1', codesecret: 'FORMULA1_PLAYDATE_CODEKEY', codesecretfile: 'src/codekey.h', makecommand: 'make "SRC_C_DIR=src/srcgame src/srcgame/scoresubmit"'}
+          - { buildtype: 'playdate', repo: 'joyrider3774/formula1_playdate', output: 'formula_1', codesecret: 'FORMULA1_PLAYDATE_CODEKEY', codesecretfile: 'src/codekey.h', makecommand: 'make "SRC_C_DIR=src/srcgame src/srcgame/scoresubmit"'}
     
     runs-on: ubuntu-latest    
     steps:
-      - if: ${{ ${{matrix.buildtype}} == "playdate"}}
+      - if: ${{ matrix.buildtype == 'playdate'}}
         name: Checkout Playdate SDL2 Api Sources
         uses: actions/checkout@v3
         with:
@@ -25,14 +25,14 @@ jobs:
           path: tmp
       
 
-      - if: ${{ (${{matrix.codesecret}} != "") && (${{matrix.codesecretfile}} != "")}}
+      - if: ${{ (matrix.codesecret != '') && (matrix.codesecretfile != '')}}
         name: Setup Secret codekey.h File
         env: 
           SECRET: ${{ secrets.${{matrix.codesecret}} }}
         run : |
           echo "$SECRET" | base64 --decode >  tmp/${{matrix.codesecretfile}}
        
-      - if: ${{ ${{matrix.buildtype}} == "playdate"}}
+      - if: ${{ matrix.buildtype== 'playdate'}}
         name: move things to correct directories
         run: |
           rm -rf ./src/srcgame
@@ -40,17 +40,17 @@ jobs:
           mv tmp/Source ./Source
           mv tmp/src ./src/srcgame
      
-      - if: ${{ ${{matrix.buildtype}} == "playdate"}}   
+      - if: ${{ matrix.buildtype == 'playdate'}}   
         name: Build Game
         run: |
           ${{matrix.makecommand}}
           
-      - if: ${{ ${{matrix.buildtype}} == "playdate"}}   
+      - if: ${{ matrix.buildtype == 'playdate'}}   
         name: copy metadata
         run: |
           cp -Rf /tmp/metadata/trimuismartpo/. Source/
                  
-      - if: ${{ ${{matrix.buildtype}} == "playdate"}}
+      - if: ${{ matrix.buildtype == 'playdate'}}
         name: Store build
         uses: actions/upload-artifact@v3
         with:
