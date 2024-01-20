@@ -58,7 +58,7 @@ jobs:
       - if: ${{ matrix.buildtype == 'playdate'}}   
         name: copy metadata
         run: |
-          cp -Rf tmp/metadata/trimuismartpo/. Source/
+          cp -Rf tmp/metadata/trimuismartpro/. Source/
                  
       - if: ${{ matrix.buildtype == 'playdate'}}
         name: Store build
