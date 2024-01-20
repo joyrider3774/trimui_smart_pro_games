@@ -62,7 +62,7 @@ jobs:
       
       - name: prepare artificat directory
         run: |
-          mkdir artifcat_dir
+          mkdir artifact_dir
           mv Source ./artifact_dir/${{ matrix.output }}
       
       - if: ${{ matrix.buildtype == 'playdate'}}
