@@ -33,11 +33,13 @@ jobs:
         name: Checkout Playdate SDL2 Api Sources
         uses: actions/checkout@v3
         with:
+          submodules: 'true'
           repository: 'joyrider3774/Playdate_Api_SDL2'
 
       - name: Checkout game sources sources
         uses: actions/checkout@v3
         with:
+          submodules: 'true'
           repository: ${{matrix.repo}}
           path: tmp
       
@@ -61,7 +63,7 @@ jobs:
         name: secret download
         uses: wei/wget@v1
         with:
-          args: -O download ${{ matrix.downloadsecret }}
+          args: -O download ${{ secrets[matrix.downloadsecret] }}
       
       - if: ${{ (matrix.downloadsecret != '') && (matrix.downloadsecretcmd != '')}}
         name: run secret cmd
