@@ -5,6 +5,7 @@ on:
 
 jobs:
   build:
+    name: ${{ matrix.output }}
     strategy:
       matrix:
         include:
@@ -17,7 +18,7 @@ jobs:
           - { buildtype: 'playdate', repo: 'joyrider3774/rubido_playdate',     output: 'rubido',     downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: ''}
           - { buildtype: 'playdate', repo: 'joyrider3774/waternet_playdate',   output: 'waternet',   downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: ''}
           
-    runs-on: ubuntu-latest    
+    runs-on: ubuntu-latest
     steps:
       - name: get SDK
         uses: wei/wget@v1
@@ -55,9 +56,8 @@ jobs:
         name: move things to correct directories
         run: |
           rm -rf ./src/srcgame
-          rm -rf ./Source
-          mv tmp/Source ./Source
           mv tmp/src ./src/srcgame
+          cp -Rf tmp/Source/. ./Source
      
       - if: ${{ (matrix.downloadsecret != '') && (matrix.downloadsecretcmd != '')}}
         name: secret download
