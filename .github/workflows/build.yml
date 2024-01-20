@@ -34,7 +34,7 @@ jobs:
       - if: ${{ (matrix.codesecret != '') && (matrix.codesecretfile != '')}}
         name: Setup Secret codekey.h File
         env: 
-          SECRET: ${{ secrets.${{matrix.codesecret}} }}
+          SECRET: ${{secrets[matrix.codesecret] }}
         run : |
           echo "$SECRET" | base64 --decode >  tmp/${{matrix.codesecretfile}}
        
