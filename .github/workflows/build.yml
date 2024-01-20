@@ -59,10 +59,15 @@ jobs:
         name: copy metadata
         run: |
           cp -Rf tmp/metadata/trimuismartpro/. Source/
-                 
+      
+      - name: prepare artificat directory
+        run: |
+          mkdir artifcat_dir
+          mv Source ./artifact_dir/${{ matrix.output }}
+      
       - if: ${{ matrix.buildtype == 'playdate'}}
         name: Store build
         uses: actions/upload-artifact@v3
         with:
           name: ${{ matrix.output }} - Trimui_Smart_Pro
-          path: Source/
+          path: artifact_dir/
