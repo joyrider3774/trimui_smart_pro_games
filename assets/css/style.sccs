@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-wrapper {
+.wrapper {
   max-width: 800px;
 }
 
