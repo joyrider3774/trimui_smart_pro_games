@@ -30,7 +30,7 @@ Please see respective repo of each game to get more information about the games 
 
 Blokdude is a remake of the well known TI Caluculator game from Brandon Sterner as well as the blockman game from Soleau Software. This version of the game is based on the GP2X port of blockdude i made over a decade ago.
 
-[Game Info](https://github.com/joyrider3774/blockdude_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/blockdude%20-%20Trimui_Smart_Pro.zip)
+[Game Info](https://github.com/joyrider3774/blockdude_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/blockdude.-.Trimui_Smart_Pro.zip)
 
 ---
 
@@ -39,7 +39,7 @@ Blokdude is a remake of the well known TI Caluculator game from Brandon Sterner 
 
 Checkers is the well known board game with four difficulties and a jump heuristic. This version is port of my gp2x version made to work with the Trimui Smart pro handheld.
 
-[Game Info](https://github.com/joyrider3774/checkers_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/checkers%20-%20Trimui_Smart_Pro.zip)
+[Game Info](https://github.com/joyrider3774/checkers_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/checkers.-.Trimui_Smart_Pro.zip)
 
 ---
 
@@ -48,7 +48,7 @@ Checkers is the well known board game with four difficulties and a jump heuristi
 
 Dynamate is a puzzle game invented by Björn Kalzen and Jonas Norberg, a couple of years ago i contacted them to make a port for the gp2x handheld. This version is port of my gp2x version made to work with the Trimui Smart pro handheld.
 
-[Game Info](https://github.com/joyrider3774/dynamate_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/dynamate%20-%20Trimui_Smart_Pro.zip)
+[Game Info](https://github.com/joyrider3774/dynamate_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/dynamate.-.Trimui_Smart_Pro.zip)
 
 ---
 
@@ -57,7 +57,7 @@ Dynamate is a puzzle game invented by Björn Kalzen and Jonas Norberg, a couple 
 
 Formula 1 Game & Watch is a small, fictive formula 1 game & watch style lcd game with high score keeping. The Game was initially created over a decade ago for a small retrogame competition, after which it got ported to the gp2x. This version is based on the gp2x version but with added high score saving.
 
-[Game Info](https://github.com/joyrider3774/formula1_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/formula_1%20-%20Trimui_Smart_Pro.zip)
+[Game Info](https://github.com/joyrider3774/formula1_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/formula_1.-.Trimui_Smart_Pro.zip)
 
 ---
 
@@ -66,7 +66,7 @@ Formula 1 Game & Watch is a small, fictive formula 1 game & watch style lcd game
 
 Rubido is a little chinese checkers or solitaire game with four difficulties.
 
-[Game Info](https://github.com/joyrider3774/rubido_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/rubido%20-%20Trimui_Smart_Pro.zip)
+[Game Info](https://github.com/joyrider3774/rubido_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/rubido.-.Trimui_Smart_Pro.zip)
 
 ---
 
@@ -75,7 +75,7 @@ Rubido is a little chinese checkers or solitaire game with four difficulties.
 
 Puzzle Land is a remake of the gameboy game Daedalian opus also known as puzzle road in japan. The gameplay and levels are the same but the graphics, music sounds have changed. It's a puzzle game with 36 levels. It is a tribute to a game i spend endless hours playing as a child.
 
-[Game Info](https://github.com/joyrider3774/puzzleland_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/puzzleland%20-%20Trimui_Smart_Pro.zip)
+[Game Info](https://github.com/joyrider3774/puzzleland_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/puzzleland.-.Trimui_Smart_Pro.zip)
 
 ---
 
@@ -84,7 +84,7 @@ Puzzle Land is a remake of the gameboy game Daedalian opus also known as puzzle 
 
 Puztrix is a remake of the Gravnic game from inside the NES Puzznic game.
 
-[Game Info](https://github.com/joyrider3774/puztrix_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/puztrix%20-%20Trimui_Smart_Pro.zip)
+[Game Info](https://github.com/joyrider3774/puztrix_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/puztrix.-.Trimui_Smart_Pro.zip)
 
 ---
 
@@ -93,5 +93,5 @@ Puztrix is a remake of the Gravnic game from inside the NES Puzznic game.
 
 Waternet is a multiplatform puzzle game written for old consoles and handhelds like Game Boy (Color), Game Gear, Master System, Analogue Pocket and Mega Duck and now also Trimui Smart Pro! It's a combination of the net and netslide games from the simon tatham's puzzle collection!
 
-[Game Info](https://github.com/joyrider3774/waternet_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/waternet%20-%20Trimui_Smart_Pro.zip)
+[Game Info](https://github.com/joyrider3774/waternet_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/waternet.-.Trimui_Smart_Pro.zip)
 
