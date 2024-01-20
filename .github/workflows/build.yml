@@ -8,10 +8,16 @@ jobs:
     strategy:
       matrix:
         include:
-          - { buildtype: 'playdate', repo: 'joyrider3774/formula1_playdate', output: 'formula_1', codesecret: 'FORMULA1_PLAYDATE_CODEKEY', codesecretfile: 'src/codekey.h', makecommand: 'make "SRC_C_DIR=src/srcgame src/srcgame/scoresubmit"'}
+          - { buildtype: 'playdate', repo: 'joyrider3774/formula1_playdate', output: 'formula_1', codesecret: 'FORMULA1_PLAYDATE_CODEKEY', codesecretfile: 'src/codekey.h', makecommand: '"SRC_C_DIR=src/srcgame src/srcgame/scoresubmit"'}
     
     runs-on: ubuntu-latest    
     steps:
+      - name: Setup SDK
+        run: |
+          curl https://github.com/joyrider3774/sdks/releases/latest/download/trimui-sdk.tar.gz --output sdk.tar.gz
+          tar -xzvf ./trimui-sdk.tar.gz
+          sudo mv ./trimui-sdk /opt/
+
       - if: ${{ matrix.buildtype == 'playdate'}}
         name: Checkout Playdate SDL2 Api Sources
         uses: actions/checkout@v3
@@ -43,7 +49,7 @@ jobs:
       - if: ${{ matrix.buildtype == 'playdate'}}   
         name: Build Game
         run: |
-          ${{matrix.makecommand}}
+          make PLATFORM=trimui_smart_pro ${{matrix.makecommand}}
           
       - if: ${{ matrix.buildtype == 'playdate'}}   
         name: copy metadata
