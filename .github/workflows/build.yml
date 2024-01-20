@@ -8,8 +8,15 @@ jobs:
     strategy:
       matrix:
         include:
-          - { buildtype: 'playdate', repo: 'joyrider3774/formula1_playdate', output: 'formula_1', codesecret: 'FORMULA1_PLAYDATE_CODEKEY', codesecretfile: 'src/codekey.h', makecommand: '"SRC_C_DIR=src/srcgame src/srcgame/scoresubmit"'}
-    
+          - { buildtype: 'playdate', repo: 'joyrider3774/formula1_playdate',   output: 'formula_1',  downloadsecret: '', downloadsecretcmd: '', codesecret: 'FORMULA1_PLAYDATE_CODEKEY', codesecretfile: 'src/codekey.h', makecommand: '"SRC_C_DIR=src/srcgame src/srcgame/scoresubmit"'}
+          - { buildtype: 'playdate', repo: 'joyrider3774/checkers_playdate',   output: 'checkers',   downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: 'CPP_BUILD=1'}
+          - { buildtype: 'playdate', repo: 'joyrider3774/dynamate_playdate',   output: 'dynamate',   downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: 'CPP_BUILD=1'}
+          - { buildtype: 'playdate', repo: 'joyrider3774/blockdude_playdate',  output: 'blockdude',  downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: ''}
+          - { buildtype: 'playdate', repo: 'joyrider3774/puztrix_playdate',    output: 'puztrix',    downloadsecret: '', downloadsecretcmd: '', codesecret: 'PUZTRIX_PLAYDATE_CODEKEY',  codesecretfile: 'src/codekey.h', makecommand: '"SRC_C_DIR=src/srcgame/scoresubmit/src/playdate/C_API/scoresubmit" "SRC_CPP_DIR=src/srcgame src/srcstub/sdl_rotate src/srcstub/gfx_primitives_surface src/srcstub/bump src/srcstub/bump/src src/srcstub src/srcstub/pd_api"'}
+          - { buildtype: 'playdate', repo: 'joyrider3774/puzzleland_playdate', output: 'puzzleland', downloadsecret: 'PUZZLELAND_MUSIC', downloadsecretcmd: 'unzip download && mv music Source/music', codesecret: '', codesecretfile: '', makecommand: '"SRC_C_DIR=src/srcgame src/srcgame/gameobjects src/srcgame/gamestates"'}
+          - { buildtype: 'playdate', repo: 'joyrider3774/rubido_playdate',     output: 'rubido',     downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: ''}
+          - { buildtype: 'playdate', repo: 'joyrider3774/waternet_playdate',   output: 'waternet',   downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: ''}
+          
     runs-on: ubuntu-latest    
     steps:
       - name: get SDK
@@ -49,6 +56,18 @@ jobs:
           rm -rf ./Source
           mv tmp/Source ./Source
           mv tmp/src ./src/srcgame
+     
+      - if: ${{ (matrix.downloadsecret != '') && (matrix.downloadsecretcmd != '')}}
+        name: secret download
+        uses: wei/wget@v1
+        with:
+          args: -O download ${{ matrix.downloadsecret }}
+      
+      - if: ${{ (matrix.downloadsecret != '') && (matrix.downloadsecretcmd != '')}}
+        name: run secret cmd
+        run: |
+          ${{matrix.downloadsecretcmd}}
+          rm download
      
       - if: ${{ matrix.buildtype == 'playdate'}}   
         name: Build Game
