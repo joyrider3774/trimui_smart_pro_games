@@ -91,7 +91,7 @@ Puztrix is a remake of the Gravnic game from inside the NES Puzznic game.
 ---
 
 ## RetroTime
-![RetroTime Screenshot 1](https://raw.githubusercontent.com/joyrider3774/RetroTime/master/metadata/screenshots/bubblebuster.png) ![Retrotime Screenshot 2](https://raw.githubusercontent.com/joyrider3774/RetroTime/master/metadata/screenshots/fasterdave.png)
+![RetroTime Screenshot 1](https://raw.githubusercontent.com/joyrider3774/RetroTime/master/metadata/bubblebuster.png) ![Retrotime Screenshot 2](https://raw.githubusercontent.com/joyrider3774/RetroTime/master/metadata/fasterdave.png)
 
 RetroTime is a game containing 8 retro based games playable in 3 game modes being Retro Carousel, Time Attack and Lives mode. The game is a port from my competetion entry for Fuze 4 for Nintendo switch, in colleboration Wireframe magazine.
 
