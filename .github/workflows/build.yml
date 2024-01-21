@@ -9,14 +9,15 @@ jobs:
     strategy:
       matrix:
         include:
-          - { buildtype: 'playdate', repo: 'joyrider3774/formula1_playdate',   output: 'formula_1',  downloadsecret: '', downloadsecretcmd: '', codesecret: 'FORMULA1_PLAYDATE_CODEKEY', codesecretfile: 'src/codekey.h', makecommand: '"SRC_C_DIR=src/srcgame src/srcgame/scoresubmit"'}
-          - { buildtype: 'playdate', repo: 'joyrider3774/checkers_playdate',   output: 'checkers',   downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: 'CPP_BUILD=1'}
-          - { buildtype: 'playdate', repo: 'joyrider3774/dynamate_playdate',   output: 'dynamate',   downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: 'CPP_BUILD=1'}
-          - { buildtype: 'playdate', repo: 'joyrider3774/blockdude_playdate',  output: 'blockdude',  downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: ''}
-          - { buildtype: 'playdate', repo: 'joyrider3774/puztrix_playdate',    output: 'puztrix',    downloadsecret: '', downloadsecretcmd: '', codesecret: 'PUZTRIX_PLAYDATE_CODEKEY',  codesecretfile: 'src/codekey.h', makecommand: '"SRC_C_DIR=src/srcgame/scoresubmit/src/playdate/C_API/scoresubmit" "SRC_CPP_DIR=src/srcgame src/srcstub/sdl_rotate src/srcstub/gfx_primitives_surface src/srcstub/bump src/srcstub/bump/src src/srcstub src/srcstub/pd_api"'}
-          - { buildtype: 'playdate', repo: 'joyrider3774/puzzleland_playdate', output: 'puzzleland', downloadsecret: 'PUZZLELAND_MUSIC', downloadsecretcmd: 'unzip download && mv music Source/music', codesecret: '', codesecretfile: '', makecommand: '"SRC_C_DIR=src/srcgame src/srcgame/gameobjects src/srcgame/gamestates"'}
-          - { buildtype: 'playdate', repo: 'joyrider3774/rubido_playdate',     output: 'rubido',     downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: ''}
-          - { buildtype: 'playdate', repo: 'joyrider3774/waternet_playdate',   output: 'waternet',   downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: ''}
+          - { buildtype: 'playdate', repo: 'joyrider3774/formula1_playdate',   output: 'formula_1',   binarycopy: '', assetscopy: '', downloadsecret: '', downloadsecretcmd: '', codesecret: 'FORMULA1_PLAYDATE_CODEKEY', codesecretfile: 'src/codekey.h', makecommand: '"SRC_C_DIR=src/srcgame src/srcgame/scoresubmit"'}
+          - { buildtype: 'playdate', repo: 'joyrider3774/checkers_playdate',   output: 'checkers',    binarycopy: '', assetscopy: '', downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: 'CPP_BUILD=1'}
+          - { buildtype: 'playdate', repo: 'joyrider3774/dynamate_playdate',   output: 'dynamate',    binarycopy: '', assetscopy: '', downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: 'CPP_BUILD=1'}
+          - { buildtype: 'playdate', repo: 'joyrider3774/blockdude_playdate',  output: 'blockdude',   binarycopy: '', assetscopy: '', downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: ''}
+          - { buildtype: 'playdate', repo: 'joyrider3774/puztrix_playdate',    output: 'puztrix',     binarycopy: '', assetscopy: '', downloadsecret: '', downloadsecretcmd: '', codesecret: 'PUZTRIX_PLAYDATE_CODEKEY',  codesecretfile: 'src/codekey.h', makecommand: '"SRC_C_DIR=src/srcgame/scoresubmit/src/playdate/C_API/scoresubmit" "SRC_CPP_DIR=src/srcgame src/srcstub/sdl_rotate src/srcstub/gfx_primitives_surface src/srcstub/bump src/srcstub/bump/src src/srcstub src/srcstub/pd_api"'}
+          - { buildtype: 'playdate', repo: 'joyrider3774/puzzleland_playdate', output: 'puzzleland',  binarycopy: '', assetscopy: '', downloadsecret: 'PUZZLELAND_MUSIC', downloadsecretcmd: 'unzip download && mv music Source/music', codesecret: '', codesecretfile: '', makecommand: '"SRC_C_DIR=src/srcgame src/srcgame/gameobjects src/srcgame/gamestates"'}
+          - { buildtype: 'playdate', repo: 'joyrider3774/rubido_playdate',     output: 'rubido',      binarycopy: '', assetscopy: '', downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: ''}
+          - { buildtype: 'playdate', repo: 'joyrider3774/waternet_playdate',   output: 'waternet',    binarycopy: '', assetscopy: '', downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: ''}
+          - { buildtype: 'vanilla',  repo: 'joyrider3774/RetroTime',           output: 'retrotime',   binarycopy: 'retrotime', assetscopy: 'retrotimefs', downloadsecret: '', downloadsecretcmd: '', codesecret: '', codesecretfile: '', makecommand: 'CXX=/opt/trimui-sdk/aarch64-linux-gnu-7.5.0-linaro/bin/aarch64-linux-gnu-g++ NOX11=1 SDL2CONFIG=/opt/trimui-sdk/aarch64-linux-gnu-7.5.0-linaro/usr/bin/sdl2-config LDLIBS="`/opt/trimui-sdk/aarch64-linux-gnu-7.5.0-linaro/usr/bin/sdl2-config --libs` -lSDL2_image -lSDL2_ttf -lSDL2_mixer -lSDL2 /opt/trimui-sdk/aarch64-linux-gnu-7.5.0-linaro/usr/lib/libSDL2_gfx.a -lpthread -lstdc++" FULLMENUTRANSPARANCY=1'}
           
     runs-on: ubuntu-latest
     steps:
@@ -53,41 +54,60 @@ jobs:
           echo "$SECRET" | base64 --decode >  tmp/${{matrix.codesecretfile}}
        
       - if: ${{ matrix.buildtype== 'playdate'}}
-        name: move things to correct directories
+        name: move things to correct directories playdate
         run: |
           rm -rf ./src/srcgame
           mv tmp/src ./src/srcgame
           cp -Rf tmp/Source/. ./Source
      
       - if: ${{ (matrix.downloadsecret != '') && (matrix.downloadsecretcmd != '')}}
-        name: secret download
+        name: run secret download
         uses: wei/wget@v1
         with:
           args: -O download ${{ secrets[matrix.downloadsecret] }}
       
       - if: ${{ (matrix.downloadsecret != '') && (matrix.downloadsecretcmd != '')}}
-        name: run secret cmd
+        name: run secret download cmd
         run: |
           ${{matrix.downloadsecretcmd}}
           rm download
      
       - if: ${{ matrix.buildtype == 'playdate'}}   
-        name: Build Game
+        name: Build Game Playdate
         run: |
-          make PLATFORM=trimui_smart_pro ${{matrix.makecommand}}
+          make PLATFORM=trimui_smart_pro ${{matrix.makecommand }}
+       
+      - if: ${{ matrix.buildtype == 'vanilla'}}   
+        name: Build Game Vanilla
+        run: |
+          cd tmp
+          make ${{matrix.makecommand }}
           
-      - if: ${{ matrix.buildtype == 'playdate'}}   
-        name: copy metadata
-        run: |
-          cp -Rf tmp/metadata/trimuismartpro/. Source/
-      
       - name: prepare artificat directory
         run: |
           mkdir artifact_dir
-          mv Source ./artifact_dir/${{ matrix.output }}
-      
+     
       - if: ${{ matrix.buildtype == 'playdate'}}
-        name: Store build
+        name: Move Source Folder
+        run: |
+          mv Source "./artifact_dir/${{ matrix.output }}"
+      
+      - name: copy metadata
+        run: |
+          cp -Rf "tmp/metadata/trimuismartpro/" "./artifact_dir/${{ matrix.output }}"
+      
+      
+      - if: ${{ matrix.binarycopy != ''}}
+        name: copy binary
+        run: |
+          cp "tmp/${{ matrix.binarycopy}}" "./artifact_dir/${{ matrix.output }}/${{ matrix.binarycopy }}"
+      
+      - if: ${{ matrix.assetscopy != ''}}
+        name: copy assets
+        run: |
+          cp -Rf "tmp/${{ matrix.assetscopy}}" "./artifact_dir/${{ matrix.output }}"
+      
+      - name: Store build
         uses: actions/upload-artifact@v3
         with:
           name: ${{ matrix.output }} - Trimui_Smart_Pro
