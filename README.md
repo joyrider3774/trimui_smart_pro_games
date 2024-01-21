@@ -17,6 +17,8 @@ For example if you open `checkers - Trimui_Smart_Pro.zip` there will be a folder
 | Dpad or Joystick | movement, selecting in menu's etc |
 | A | A Button as mentioned in the games for functionality of each game please check each game's repository |
 | B | B Button as mentioned in the games for functionality of each game please check each game's repository |
+| LB | Simulate crank move backwards movement, in my games usually used in the level editors to select next piece |
+| RB | Simulate crank move forwards movement, in my games usually used in the level editors to select next piece |
 | Y | In (Playdate) games starting up in black and white, reboot and use colored version of graphics, some games have multiple colored graphics so you can press it again to see more options. The button basically makes you cycle through all possibilities |
 | Menu | Quit game and return to menu |
 
