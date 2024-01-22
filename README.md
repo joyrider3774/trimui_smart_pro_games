@@ -106,4 +106,13 @@ Waternet is a multiplatform puzzle game written for old consoles and handhelds l
 
 [Game Info](https://github.com/joyrider3774/waternet_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/waternet.-.Trimui_Smart_Pro.zip)
 
+---
+
+## Znax
+![Znax Screenshot 1](https://raw.githubusercontent.com/joyrider3774/Znax/master/metadata/images/znaxscreenshot1.png) ![Znax Screenshot 2](https://raw.githubusercontent.com/joyrider3774/Znax/master/metadata/images/znaxscreenshot4.png)
+
+Znax is a cross platform puzzle / arcade game using SDL2 libraries. It has skin support and can be played using a keyboard, mouse, joypad or touchscreen. You select 4 of the same colored pieces forming a rectangle to gain scores and remove the pieces inside the rectangle!
+
+[Game Info](https://github.com/joyrider3774/Znax) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/znax.-.Trimui_Smart_Pro.zip)
+
 
