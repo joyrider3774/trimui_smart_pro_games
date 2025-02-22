@@ -44,7 +44,7 @@ This is contains the sdl(2) port i did, of the crisp games library portable whic
 Note: 
 
 - I did not create these games nor the library itself or any of the game idea's, this was created by user [AbaGames](https://github.com/abagames/) i'm only portraying my sdl port here with added extras and newly ported games from the Javascript versions to this portable library.
-- I had to enable No Scaled Drawing mode for trimui because of the 1280x720 screen and the trimui smart pro not being able to the games fullspeed, this means overlays like glow, pixel grid and crt effect are disabled !
+- I had to enable No Scaled Drawing mode for trimui because of the 1280x720 screen and the trimui smart pro not being able to run the games fullspeed otherwise, this means overlays like glow, pixel grid and crt effect are also disabled !
 
 [Game Info](https://joyrider3774.github.io/crisp-game-lib-portable-sdl) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/cglpsdl2.-.Trimui_Smart_Pro.zip)
 
