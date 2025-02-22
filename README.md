@@ -45,6 +45,7 @@ Note:
 
 - I did not create these games nor the library itself or any of the game idea's, this was created by user [AbaGames](https://github.com/abagames/) i'm only portraying my sdl port here with added extras and newly ported games from the Javascript versions to this portable library.
 - I had to enable No Scaled Drawing mode for trimui because of the 1280x720 screen and the trimui smart pro not being able to run the games fullspeed otherwise, this means overlays like glow, pixel grid and crt effect are also disabled !
+- A and B Button are swapped on the trimui smart pro (it follows xbox controller layout)
 
 [Game Info](https://joyrider3774.github.io/crisp-game-lib-portable-sdl) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/cglpsdl2.-.Trimui_Smart_Pro.zip)
 
