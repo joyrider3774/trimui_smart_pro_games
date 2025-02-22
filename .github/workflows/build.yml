@@ -34,13 +34,13 @@ jobs:
 
       - if: ${{ matrix.buildtype == 'playdate'}}
         name: Checkout Playdate SDL2 Api Sources
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: 'true'
           repository: 'joyrider3774/Playdate_Api_SDL2'
 
       - name: Checkout game sources sources
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: 'true'
           repository: ${{matrix.repo}}
@@ -109,7 +109,7 @@ jobs:
           cp -Rf "tmp/${{ matrix.assetscopy}}" "./artifact_dir/${{ matrix.output }}"
       
       - name: Store build
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.output }} - Trimui_Smart_Pro
           path: artifact_dir/
