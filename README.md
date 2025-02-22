@@ -36,6 +36,19 @@ Blokdude is a remake of the well known TI Caluculator game from Brandon Sterner 
 
 ---
 
+## Crisp Game Library Portable SDL(2) Port
+![Crisp Game Library Portable SDL(2) Port Screenshot 1](https://raw.githubusercontent.com/joyrider3774/crisp-game-lib-portable-sdl/main/docs/screenshotMenu.gif) ![Crisp Game Library Portable SDL(2) Port Screenshot 2](https://raw.githubusercontent.com/joyrider3774/crisp-game-lib-portable-sdl/main/docs/screenshotTrimuiSmartPro.gif)
+
+This is contains the sdl(2) port i did, of the crisp games library portable which is a Minimal C-lang library for creating classic arcade-like mini-games running on devices and browsers. Re-implemented version of crisp-game-lib for smaller devices. I ported extra games to this portable library, added extra options like small overlays (pixel grid, glow, crt etc), ability to switch between darkmode and no darkmode, ability to save highscores, overlays and darkmode per game, ...
+Note: 
+
+- I did not create these games nor the library itself or any of the game idea's, this was created by user [AbaGames](https://github.com/abagames/) i'm only portraying my sdl port here with added extras and newly ported games from the Javascript versions to this portable library.
+- I had to enable No Scaled Drawing mode for trimui because of the 1280x720 screen and the trimui smart pro not being able to the games fullspeed, this means overlays like glow, pixel grid and crt effect are disabled !
+
+[Game Info](https://joyrider3774.github.io/crisp-game-lib-portable-sdl) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/cglpsdl2.-.Trimui_Smart_Pro.zip)
+
+---
+
 ## Checkers (Playdate)
 ![Checkers Screenshot 1](https://raw.githubusercontent.com/joyrider3774/checkers_playdate/main/metadata/screenshots/Checkers-screenshot1.gif) ![Checkers Screenshot 2](https://raw.githubusercontent.com/joyrider3774/checkers_playdate/main/metadata/screenshots/Checkers-screenshot5.png)
 
