@@ -128,7 +128,7 @@ Waternet is a multiplatform puzzle game written for old consoles and handhelds l
 
 Worm is a copter / worm game remake with 5 game modes and a seed system written for playdate
 
-[Game Info](https://joyrider3774.github.io/worm_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/worm.-.Trimui_Brick.zip)
+[Game Info](https://joyrider3774.github.io/worm_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/worm.-.Trimui_Smart_Pro.zip)
 
 ---
 
