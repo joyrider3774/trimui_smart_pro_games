@@ -123,6 +123,15 @@ Waternet is a multiplatform puzzle game written for old consoles and handhelds l
 
 ---
 
+## Worm (Playdate)
+![Worm Screenshot 1](https://raw.githubusercontent.com/joyrider3774/worm_playdate/main/screenshots/screenshot1.png)
+
+Worm is a copter / worm game remake with 5 game modes and a seed system written for playdate
+
+[Game Info](https://joyrider3774.github.io/worm_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/worm.-.Trimui_Brick.zip)
+
+---
+
 ## Znax
 <img src="https://raw.githubusercontent.com/joyrider3774/Znax/master/images/znaxscreenshot1.png" alt="Znax Screenshot 1" width="400"> <img src="https://raw.githubusercontent.com/joyrider3774/Znax/master/images/znaxscreenshot4.png" alt="Znax Screenshot 2" width="400">
 
