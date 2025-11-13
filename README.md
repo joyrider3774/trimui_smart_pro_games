@@ -78,6 +78,15 @@ Formula 1 Game & Watch is a small, fictive formula 1 game & watch style lcd game
 
 ---
 
+## Mazethingie (Playdate)
+![Mazethingie Screenshot 1](https://raw.githubusercontent.com/joyrider3774/mazethingie_playdate/main/screenshots/screenshot1.png) ![Mazethingie Screenshot 2](https://raw.githubusercontent.com/joyrider3774/mazethingie_playdate/main/screenshots/screenshot2.png)
+
+Mazethingie which is a maze generator / player.
+
+[Game Info](https://joyrider3774.github.io/mazethingie_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_brick_games/releases/latest/download/mazethingie.-.Trimui_Smart_Pro.zip)
+
+---
+
 ## Rubido (Playdate)
 ![Rubido Screenshot 1](https://raw.githubusercontent.com/joyrider3774/rubido_playdate/main/metadata/screenshots/Rubido-screenshot3.gif) ![Rubido Screenshot 2](https://raw.githubusercontent.com/joyrider3774/rubido_playdate/main/metadata/screenshots/Rubido-screenshot6.png)
 
