@@ -83,7 +83,7 @@ Formula 1 Game & Watch is a small, fictive formula 1 game & watch style lcd game
 
 Mazethingie which is a maze generator / player.
 
-[Game Info](https://joyrider3774.github.io/mazethingie_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_brick_games/releases/latest/download/mazethingie.-.Trimui_Smart_Pro.zip)
+[Game Info](https://joyrider3774.github.io/mazethingie_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/mazethingie.-.Trimui_Smart_Pro.zip)
 
 ---
 
