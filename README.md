@@ -87,6 +87,15 @@ Mazethingie which is a maze generator / player.
 
 ---
 
+## Playdoban (Playdate)
+![Playdoban Screenshot 1](https://raw.githubusercontent.com/joyrider3774/sokoban_playdate/main/screenshots/screenshot1.png) ![Playdoban Screenshot 2](https://raw.githubusercontent.com/joyrider3774/sokoban_playdate/main/screenshots/screenshot2.png)
+
+Playdoban is a remake of the classic sokoban game. You as the player need to push boxes to specific locations in the level. Once all boxes are pushed to the correct spots the level is finished. Playdoban is basically a sokoban engine, it contains all the game rules and has the ability to use level packs.
+
+[Game Info](https://joyrider3774.github.io/sokoban_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/playdoban.-.Trimui_Smart_Pro.zip)
+
+---
+
 ## Rubido (Playdate)
 ![Rubido Screenshot 1](https://raw.githubusercontent.com/joyrider3774/rubido_playdate/main/metadata/screenshots/Rubido-screenshot3.gif) ![Rubido Screenshot 2](https://raw.githubusercontent.com/joyrider3774/rubido_playdate/main/metadata/screenshots/Rubido-screenshot6.png)
 
