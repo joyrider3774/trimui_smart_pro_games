@@ -9,6 +9,7 @@ jobs:
     strategy:
       matrix:
         include:
+          - { buildtype: 'playdate', repo: 'joyrider3774/blips_playdate',               output: 'blips',       binarycopy: '',          assetscopy: '',            downloadsecret: '',                 downloadsecretcmd: '',                                        codesecret: '',                          codesecretfile: '',              makecommand: ''}
           - { buildtype: 'playdate', repo: 'joyrider3774/formula1_playdate',            output: 'formula_1',   binarycopy: '',          assetscopy: '',            downloadsecret: '',                 downloadsecretcmd: '',                                        codesecret: 'FORMULA1_PLAYDATE_CODEKEY', codesecretfile: 'src/codekey.h', makecommand: '"SRC_C_DIR=src/srcgame src/srcgame/scoresubmit"'}
           - { buildtype: 'playdate', repo: 'joyrider3774/checkers_playdate',            output: 'checkers',    binarycopy: '',          assetscopy: '',            downloadsecret: '',                 downloadsecretcmd: '',                                        codesecret: '',                          codesecretfile: '',              makecommand: 'CPP_BUILD=1'}
           - { buildtype: 'playdate', repo: 'joyrider3774/dynamate_playdate',            output: 'dynamate',    binarycopy: '',          assetscopy: '',            downloadsecret: '',                 downloadsecretcmd: '',                                        codesecret: '',                          codesecretfile: '',              makecommand: 'CPP_BUILD=1'}

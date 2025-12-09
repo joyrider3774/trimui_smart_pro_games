@@ -27,6 +27,15 @@ For example if you open `checkers - Trimui_Smart_Pro.zip` there will be a folder
 ## Games
 Please see respective repo of each game to get more information about the games by clicking on the `Game Info` links
 
+## Blips
+![Blockdude Screenshot 1](https://raw.githubusercontent.com/joyrider3774/blips_playdate/main/screenshots/screenshot1.png) ![Blips Screenshot 2](https://raw.githubusercontent.com/joyrider3774/blips_playdate/main/screenshots/screenshot2.png)
+
+Blips is a remake of the dos bips, bips gold and bips platinum game made by Bryant Brownell, its a sokoban style puzzle game but with exploding dynamite, special boxes and collecting coins
+
+[Game Info](https://joyrider3774.github.io/blips_playdate) - [Download for Trimui Smart Pro](https://github.com/joyrider3774/trimui_smart_pro_games/releases/latest/download/blips.-.Trimui_Smart_Pro.zip)
+
+---
+
 ## Blockdude (Playdate)
 ![Blockdude Screenshot 1](https://raw.githubusercontent.com/joyrider3774/blockdude_playdate/main/metadata/screenshots/screenshot1.png) ![Blockdude Screenshot 2](https://raw.githubusercontent.com/joyrider3774/blockdude_playdate/main/metadata/screenshots/screenshot9.png)
 
